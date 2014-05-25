@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black_dim">#80000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="lilac">#ff5D1291</color>
+    <color name="lilac_transparent">#505D1291</color>
+    <color name="light_grey">#ffe5e5e5</color>
+    <color name="pressed_shopr">#CC5D1291</color>
+
+</resources>

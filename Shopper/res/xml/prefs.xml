@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="com.uwetrottmann.shopr.fakelocation"
+        android:title="@string/use_fake_location" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="com.uwetrottmann.shopr.usingdiversity"
+        android:title="@string/diversity_on_negative_progress"
+        android:summary="@string/no_item_dropping" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="com.ira.shopper.usingcontext"
+        android:title="@string/use_context"/>
+
+</PreferenceScreen>

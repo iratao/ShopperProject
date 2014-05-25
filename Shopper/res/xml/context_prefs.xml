@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="com.ira.shopper.day_of_the_week"
+        android:title="@string/day_of_the_week"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="com.ira.shopper.temperature"
+        android:title="@string/temperature"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="com.ira.shopper.time_of_the_day"
+        android:title="@string/time_of_the_day"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="com.ira.shopper.weather"
+        android:title="@string/weather"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="com.ira.shopper.crowdedness"
+        android:title="@string/crowdedness"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="com.ira.shopper.season"
+        android:title="@string/season"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="com.ira.shopper.distance"
+        android:title="@string/distance"
+        android:defaultValue="false" />
+    <ListPreference 
+        android:title="@string/time_available"
+        android:summary="@string/time_available_summary"
+        android:key="com.ira.shopper.time_available"
+        android:defaultValue="1"
+        android:entries="@array/time_available_array"
+        android:entryValues="@array/time_available_values" />
+    <ListPreference 
+        android:title="@string/budget"
+        android:summary="@string/budget_summary"
+        android:key="com.ira.shopper.budget"
+        android:defaultValue="1"
+        android:entries="@array/budget_array"
+        android:entryValues="@array/budget_values" />
+    <ListPreference 
+        android:title="@string/intent"
+        android:summary="@string/intent_summary"
+        android:key="com.ira.shopper.intent"
+        android:defaultValue="1"
+        android:entries="@array/intent_array"
+        android:entryValues="@array/intent_values" />
+    <ListPreference 
+        android:title="@string/companion"
+        android:summary="@string/companion_summary"
+        android:key="com.ira.shopper.companion"
+        android:defaultValue="1"
+        android:entries="@array/companion_array"
+        android:entryValues="@array/companion_values" />
+    <ListPreference 
+        android:title="@string/transport"
+        android:summary="@string/transport_summary"
+        android:key="com.ira.shopper.transport"
+        android:defaultValue="1"
+        android:entries="@array/transport_array"
+        android:entryValues="@array/transport_values" />
+    <ListPreference 
+        android:title="@string/mood"
+        android:summary="@string/mood_summary"
+        android:key="com.ira.shopper.mood"
+        android:defaultValue="1"
+        android:entries="@array/mood_array"
+        android:entryValues="@array/mood_values" />
+    
+</PreferenceScreen>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

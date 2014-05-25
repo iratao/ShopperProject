@@ -1,0 +1,48 @@
+id,fid,value
+1,1,budget buyer
+2,1,high spender
+3,1,price-for-quality buyer
+4,2,morning time
+5,2,afternoon
+6,2,night time
+7,3,weekend
+8,3,working day
+9,4,near by
+10,4,far away
+11,5,bought a similar clothes before
+12,5,never bought a similar clothes before
+13,6,crowded
+14,6,not crowded
+15,6,empty
+16,7,work
+17,7,daily wear
+18,7,party
+19,7,sports
+20,7,no special
+21,8,with girl-/boy-friend
+22,8,with family
+23,8,with children
+24,8,alone
+25,8,with friends
+26,9,snowing
+27,9,clear sky
+28,9,sunny
+29,9,raining
+30,9,cloudy
+31,10,shopaholic
+32,10,outdoorsy
+33,10,like a party animal
+34,10,normal
+35,11,spring
+36,11,summer
+37,11,autumn
+38,11,winter
+39,12,walking
+40,12,public transport
+41,12,bicycle
+42,12,car
+43,13,warm
+44,13,cold
+45,13,hot
+46,14,half day
+47,14,one day

@@ -1,0 +1,90 @@
+<resources>
+<string-array name="time_available_array">
+    <item>Off</item>
+	<item>Half day</item>
+	<item>One day</item>
+</string-array>
+<string-array name="time_available_values">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+</string-array>
+
+<string-array name="budget_array">
+    <item>Off</item>
+	<item>Budget buyer</item>
+	<item>High spender</item>
+	<item>Price-for-quality buyer</item>
+</string-array>
+<string-array name="budget_values">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+</string-array>
+
+<string-array name="intent_array">
+    <item>Off</item>
+	<item>Work</item>
+	<item>Daily wear</item>
+	<item>Party</item>
+	<item>Sports</item>
+	<item>No special</item>
+</string-array>
+<string-array name="intent_values"> 
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+</string-array>
+
+<string-array name="companion_array">
+    <item>Off</item>
+	<item>With girl-/boy-friend</item>
+	<item>With family</item>
+	<item>With children</item>
+	<item>Alone</item>
+	<item>With friends</item>
+</string-array>
+<string-array name="companion_values">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+</string-array>
+
+<string-array name="transport_array">
+    <item>Off</item>
+	<item>Walking</item>
+	<item>Public transport</item>
+	<item>Bicycle</item>
+	<item>Car</item>
+</string-array>
+<string-array name="transport_values">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+</string-array>
+
+<string-array name="mood_array">
+    <item>Off</item>
+	<item>Shopaholic</item>
+	<item>Outdoorsy</item>
+	<item>Like a party animal</item>
+	<item>Normal</item>
+</string-array>
+<string-array name="mood_values">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+</string-array>
+
+</resources>

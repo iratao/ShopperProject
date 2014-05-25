@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#F5EDCF"
+    tools:context=".ContextInitActivity">
+    
+    <TextView android:id="@+id/textInitHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="#312C34"
+        android:textColor="#E3ECF1"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:text="@string/init_hint" />
+    
+    <TextView
+        android:id="@+id/textInitContextTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textInitHint"
+        android:paddingTop="40dp"
+        android:paddingBottom="20dp"
+        android:gravity="center_horizontal"
+        android:text="@string/init_context_title"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="@style/TextAppearance.Large"/>
+    
+    <TextView
+        android:id="@+id/textInitContext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textInitContextTitle"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:text="@string/init_context"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonReadyStart"
+        android:layout_width="200dip"
+        android:layout_height="52dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/ready_start" />
+
+    
+
+</RelativeLayout>

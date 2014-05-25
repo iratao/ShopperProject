@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    tools:context=".CritiqueActivity" >
+
+    <LinearLayout
+        android:id="@+id/containerCritiqueItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textViewCritiqueQuestion"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/default_margin"
+            android:layout_weight="1"
+            android:text="@string/detail_like"
+            android:textAppearance="@style/TextAppearance" />
+
+        <ImageView
+            android:id="@+id/imageViewCritiqueImage"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/description_item_picutre"
+            android:scaleType="fitCenter" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonRecommend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="@string/update_recommendations" />
+
+    <ListView
+        android:id="@+id/listViewCritique"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/buttonRecommend"
+        android:layout_below="@+id/containerCritiqueItem"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin" >
+    </ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/listViewCritique"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:text="@string/selection_hint"
+        android:textAppearance="@style/TextAppearance.Small.Dim.Highlight" />
+
+</RelativeLayout>

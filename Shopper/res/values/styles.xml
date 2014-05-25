@@ -1,0 +1,62 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowBackground">@color/light_grey</item>
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_shopr</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Shopr</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Shopr" parent="@android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_shopr</item>
+    </style>
+
+    <style name="TextAppearance" parent="@android:style/TextAppearance"></style>
+
+    <style name="TextAppearance.Primary">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextAppearance.Primary.Light">
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-light</item>
+    </style>
+
+    <style name="TextAppearance.Light">
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-light</item>
+    </style>
+
+    <style name="TextAppearance.Small">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextAppearance.Small.Label">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TextAppearance.Small.Light">
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-light</item>
+    </style>
+
+    <style name="TextAppearance.Small.Dim">
+        <item name="android:textColor">@android:color/tertiary_text_light</item>
+    </style>
+
+    <style name="TextAppearance.Small.Dim.Highlight">
+        <item name="android:textStyle">italic</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-condensed</item>
+    </style>
+
+    <style name="TextAppearance.Large">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="TextAppearance.Large.Light">
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-light</item>
+    </style>
+
+</resources>
