@@ -8,7 +8,7 @@
     <string name="title_map">Shops</string>
     <string name="title_item_detail">Item Details</string>
     <string name="title_item_map">Item Map</string>
-    <string name="reason_empty">Close to you, store open</string>
+    <string name="reason_empty">Store open</string>
     <string name="like">I like something about this item</string>
     <string name="dislike">I dislike something this item</string>
     <string name="description_item_picutre">Clothing item</string>
@@ -39,6 +39,7 @@
     <string name="use_fake_location">Use fake location</string>
     <string name="diversity_on_negative_progress">Diversity on negative progress</string>
     <string name="use_context">Use context</string>
+    <string name="use_real_context">Use real context</string>
     <string name="no_item_dropping">Also no recs exclusion</string>
     <string name="title_activity_test_setup">Test Setup</string>
     <string name="test_setup">Test Setup</string>

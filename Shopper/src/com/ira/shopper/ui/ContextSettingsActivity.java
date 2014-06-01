@@ -9,6 +9,9 @@ import android.preference.PreferenceActivity;
 import android.preference.PreferenceManager;
 
 import com.ira.shopper.R;
+import com.ira.shopper.ui.MainActivity.LocationUpdateEvent;
+
+import de.greenrobot.event.EventBus;
 
 public class ContextSettingsActivity extends PreferenceActivity implements OnSharedPreferenceChangeListener{
     @SuppressWarnings("deprecation")
@@ -28,4 +31,6 @@ public class ContextSettingsActivity extends PreferenceActivity implements OnSha
             pref.setSummary(listPref.getEntry());
         }
     }
+    
+    
 }

@@ -69,6 +69,7 @@ public class ContextAwareRecommendation {
 		for(ContextCase mCase: recomCases){
 			mCase.getItem().setSimilarContext(mCase.getContextFactors());
 			recommendations.add(mCase.getItem());
+			AdaptiveSelection.get().removeItem(mCase.getItem().id());
 		}
 			
 //		List<Item> caseBase = AdaptiveSelection.get().getInitialCaseBase();
@@ -203,6 +204,7 @@ public class ContextAwareRecommendation {
 //		}
 		
 		for(ContextCase mCase: simContextCases){
+			
 			if(!isAvailable(mCase.getItem())){
 				mCase.setItem(getSimilarItem(mCase.getItem()));
 			}
@@ -212,15 +214,20 @@ public class ContextAwareRecommendation {
 	
 	public boolean isAvailable(Item item){
 		List<Item> items = AdaptiveSelection.get().getInitialCaseBase();
-		for(Item i: items){
-			if(i.id() == item.id())
+		for(int index=0; index<items.size();index++){
+			Item i = items.get(index);
+			if(i.id() == item.id()){
+//				items.remove(index);
 				return true;
+			}
 		}
 		return false;
 	}
 	
 	public Item getSimilarItem(Item item){
-        return AdaptiveSelection.get().getSimilarItem(item);
+		Item simItem = AdaptiveSelection.get().getSimilarItem(item);
+		simItem.setSimilarContext(item.getSimilarContext());
+        return simItem;
 	}
 	
 //	public List<ContextCase> getSimilarContextCases(){

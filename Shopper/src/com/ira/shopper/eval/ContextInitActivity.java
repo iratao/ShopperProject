@@ -37,7 +37,7 @@ public class ContextInitActivity extends Activity{
 	public static final int SET_SIZE = 5;
 	
 	public static int indexCurrentContext;
-	public static boolean USE_REAL_CONTEXT = false;
+	public static boolean USE_REAL_CONTEXT = true;
 	
 	private static List<ContextFactors> contextSet = new ArrayList<ContextFactors>(SET_SIZE);
 	private static List<String> contextText = new ArrayList<String>(SET_SIZE);
@@ -76,12 +76,15 @@ public class ContextInitActivity extends Activity{
 	}
 	
 	public void setContext(){
-		ContextSettings.setCurrentContext(getBaseContext(), contextSet.get(indexCurrentContext));
-		if(indexCurrentContext == 0 || indexCurrentContext == 2)
-			ContextSettings.setUseDistance(false, this);
-		else{
-			ContextSettings.setUseDistance(true, this);
+		if(!USE_REAL_CONTEXT){
+			ContextSettings.setCurrentContext(getBaseContext(), contextSet.get(indexCurrentContext));
+			if(indexCurrentContext == 0 || indexCurrentContext == 2)
+				ContextSettings.setUseDistance(false, this);
+			else{
+				ContextSettings.setUseDistance(true, this);
+			}
 		}
+		
 	}
 	
 	public static ContextFactors getContextByIndex(int index){

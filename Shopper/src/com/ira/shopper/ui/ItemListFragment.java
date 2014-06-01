@@ -26,6 +26,7 @@ import com.ira.shopper.adapters.ItemAdapter;
 import com.ira.shopper.adapters.ItemAdapter.OnItemCritiqueListener;
 import com.ira.shopper.adapters.ItemAdapter.OnItemDisplayListener;
 import com.ira.shopper.loaders.ItemLoader;
+import com.ira.shopper.ui.MainActivity.ContextUpdateEvent;
 import com.ira.shopper.ui.MainActivity.LocationUpdateEvent;
 import com.ira.shopper.utils.Maps;
 import com.uwetrottmann.shopr.algorithm.AdaptiveSelection;
@@ -94,6 +95,7 @@ OnItemCritiqueListener, OnItemDisplayListener{
     public void onStart() {
         super.onStart();
         EventBus.getDefault().registerSticky(this, LocationUpdateEvent.class);
+        EventBus.getDefault().register(this, ContextUpdateEvent.class);
     }
 
     @Override
@@ -141,7 +143,7 @@ OnItemCritiqueListener, OnItemDisplayListener{
         if (args != null) {
             isInit = args.getBoolean("isinit");
         }
-        LatLng location = ((MainActivity) getActivity()).getLastLocation();
+        LatLng location = MainActivity.getLastLocation();
         Log.d(TAG, "onCreateLoader " + location.toString());
         return new ItemLoader(getActivity(), location, isInit);
 	}
@@ -211,7 +213,7 @@ OnItemCritiqueListener, OnItemDisplayListener{
 	
 	@Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (resultCode == Activity.RESULT_OK && requestCode == REQUEST_CODE) {
+        if (resultCode == Activity.RESULT_OK && requestCode == REQUEST_CODE ) {
             Log.d(TAG, "Received recommendation update, requerying");
             getLoaderManager().restartLoader(LOADER_ID, null, this);
         }
@@ -223,7 +225,13 @@ OnItemCritiqueListener, OnItemDisplayListener{
             mIsInitialized = true;
             onInitializeItems();
         }
+
     }
+	
+	public void onEvent(ContextUpdateEvent event){
+		Log.d(TAG, "Received context update, requering");
+		onInitializeItems();
+	}
 
     private void onInitializeItems() {
         Bundle args = new Bundle();

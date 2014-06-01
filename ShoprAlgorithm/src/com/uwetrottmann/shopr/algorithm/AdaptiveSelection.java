@@ -121,6 +121,16 @@ public class AdaptiveSelection {
     public int getMaxRecommendations(){
     	return this.mNumRecommendations;
     }
+    
+    public void removeItem(int id){
+    	List<Item> mCases = this.getInitialCaseBase();
+    	for(int i = 0; i<mCases.size(); i++){
+    		if(mCases.get(i).id() == id){
+    			mCases.remove(i);
+    			return;
+    		}
+    	}
+    }
 
     public List<Item> getInitialContextAwareRecommendations(){
     	return null;
@@ -257,6 +267,10 @@ public class AdaptiveSelection {
              */
             Utils.sortBySimilarityToQuery(query, caseBase);
             for (int i = 0; i < numItems; i++) {
+            	if(mIsUsingContext){
+            		caseBase.get(i).setSimilarContext(lastCritique.item().getSimilarContext());
+            	}
+            	
                 recommendations.add(caseBase.get(i));
             }
         } else {
@@ -280,6 +294,12 @@ public class AdaptiveSelection {
         	}else{
                 recommendations = BoundedGreedySelection
                     .boundedGreedySelection(query, caseBase, numItems, bound);
+                if(mIsUsingContext){
+                	for(Item item: recommendations){
+                    	item.setSimilarContext(lastCritique.item().getSimilarContext());
+                    }
+                }
+                
         	}
         }
 

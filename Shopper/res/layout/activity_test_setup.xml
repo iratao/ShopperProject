@@ -36,12 +36,23 @@
         android:layout_marginBottom="@dimen/default_margin"
         android:layout_marginTop="@dimen/default_margin"
         android:text="@string/use_context" />
+    
+    <CheckBox
+        android:id="@+id/checkBoxTestSetupRealContext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewTestSetup"
+        android:layout_below="@+id/checkBoxTestSetupContext"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:layout_marginTop="@dimen/default_margin"
+        android:text="@string/use_real_context" />
+    
 
     <Button
         android:id="@+id/buttonTestSetupStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/checkBoxTestSetupContext"
+        android:layout_below="@+id/checkBoxTestSetupRealContext"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/default_margin"
         android:text="@string/start" />

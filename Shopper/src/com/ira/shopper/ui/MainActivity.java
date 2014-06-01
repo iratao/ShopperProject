@@ -1,19 +1,13 @@
 package com.ira.shopper.ui;
 
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
 import java.util.Locale;
 
+import android.app.Activity;
 import android.app.Dialog;
 import android.content.Intent;
 import android.content.IntentSender;
-import android.content.res.AssetManager;
 import android.location.Location;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.app.Fragment;
@@ -35,7 +29,6 @@ import com.google.android.gms.location.LocationClient;
 import com.google.android.gms.maps.model.LatLng;
 import com.ira.shopper.R;
 import com.ira.shopper.eval.TestSetupActivity;
-import com.ira.shopper.importer.CsvImporter;
 import com.ira.shopper.importer.ImporterActivity;
 import com.ira.shopper.settings.AppSettings;
 
@@ -70,6 +63,7 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
     
     private LocationClient mLocationClient;
     private static LatLng mLastLocation;
+    public static boolean CONTEXT_CHANGED = false;
 
 
 	@Override
@@ -81,9 +75,9 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
 		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 		
 		// Check if Google Play services is installed
-        if (!servicesConnected()) {
-            return;
-        }
+//        if (!servicesConnected()) {
+//            return;
+//        }
 
         /*
          * Create a new location client, using the enclosing class to handle
@@ -125,7 +119,9 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
 //        initContextDatabase();
 
 	}
-
+	
+	
+	
 	@Override
 	protected void onStop() {
 		if (!AppSettings.isUsingFakeLocation(this)) {
@@ -143,6 +139,10 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
         mLastLocation = new LatLng(48.137314, 11.575253);
         // send out location update event immediately
         EventBus.getDefault().postSticky(new LocationUpdateEvent());
+        if(CONTEXT_CHANGED){
+        	 EventBus.getDefault().post(new ContextUpdateEvent());
+        	 CONTEXT_CHANGED = false;
+        }
 //		if (AppSettings.isUsingFakeLocation(this)) {
 //            // use fake location (Marienplatz, Munich)
 //            mLastLocation = new LatLng(48.137314, 11.575253);
@@ -156,7 +156,12 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
 	@Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
+		if(AppSettings.isUsingContext(getBaseContext())){
+			getMenuInflater().inflate(R.menu.main, menu);
+		}else{
+			getMenuInflater().inflate(R.menu.main_no_context, menu);
+		}
+        
         return true;
     }
 
@@ -173,6 +178,7 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
                 return true;
             case R.id.action_context_settings:
             	startActivity(new Intent(this, ContextSettingsActivity.class));
+            	CONTEXT_CHANGED = true;
             	return true;
             case R.id.action_settings:
                 startActivity(new Intent(this, SettingsActivity.class));
@@ -181,7 +187,8 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
                 return super.onOptionsItemSelected(item);
         }
     }
-
+    
+    
 
 
 	@Override
@@ -392,6 +399,9 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
     }
     
     public class LocationUpdateEvent {
+    }
+    
+    public class ContextUpdateEvent {
     }
     
     

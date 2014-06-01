@@ -23,6 +23,7 @@ public class TestSetupActivity extends Activity{
 
     private EditText mNameEditText;
     private CheckBox mContextCheckBox;
+    private CheckBox mUseRealContextCheckBox;
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +50,8 @@ public class TestSetupActivity extends Activity{
         mContextCheckBox = (CheckBox)findViewById(R.id.checkBoxTestSetupContext);
         mContextCheckBox.setChecked(AppSettings.isUsingContext(this));
         
+        mUseRealContextCheckBox = (CheckBox)findViewById(R.id.checkBoxTestSetupRealContext);
+        mUseRealContextCheckBox.setChecked(ContextInitActivity.USE_REAL_CONTEXT);
     }
     
     protected void onStartTest() {
@@ -68,6 +71,9 @@ public class TestSetupActivity extends Activity{
 	        .putBoolean(AppSettings.KEY_USING_CONTEXT, this.mContextCheckBox.isChecked())
 	        .commit();
         Log.d(TAG, "Setting using context to : " + (mContextCheckBox.isChecked() ? "ON" : "OFF"));
+        
+        ContextInitActivity.USE_REAL_CONTEXT = mUseRealContextCheckBox.isChecked();
+        Log.d(TAG, "Setting using real context to: " + (mUseRealContextCheckBox.isChecked() ? "ON" : "OFF"));
         
         // record name, time and type, start task
         Statistics.get().startTask(mNameEditText.getText().toString(),

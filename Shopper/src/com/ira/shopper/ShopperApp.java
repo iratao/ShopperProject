@@ -22,6 +22,7 @@ public class ShopperApp extends Application{
 	public void onCreate() {
 		super.onCreate();
 		PreferenceManager.setDefaultValues(this, R.xml.prefs, true);
+		PreferenceManager.setDefaultValues(this, R.xml.context_prefs, true);
 //		EasyTracker.getInstance().setContext(this);
 	}
 	
