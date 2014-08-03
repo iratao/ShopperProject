@@ -107,8 +107,6 @@ public class ItemDetailFragment extends Fragment{
       	  TextView recommendReason = (TextView) v.findViewById(R.id.textViewRecommendReason);
           recommendReason.setText(mItem.getContextAwareReason());
           
-          
-          
       }else{
       	  TextView recommendReason = (TextView) v.findViewById(R.id.textViewRecommendReason);
           recommendReason.setVisibility(TextView.INVISIBLE);

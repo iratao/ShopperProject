@@ -123,8 +123,12 @@ public class Item {
     						- o2.getWeight((ClothingType)attrs.getAttributeById(ClothingType.ID)));
     			}
         	});
+        	int count = 0;
         	for(ContextFactor factor: this.similarContext.getAllContextFactors()){
         		reason += factor.getFactorDescription() + ", ";
+        		count++;
+        		if(count>1)
+        			break;
         	}
         	reason = reason.substring(0, reason.length() - 2);
         	reason += ".";
