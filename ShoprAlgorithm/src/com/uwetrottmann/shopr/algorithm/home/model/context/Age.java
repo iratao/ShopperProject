@@ -1,4 +1,4 @@
-package com.uwetrottmann.shopr.algorithm.home;
+package com.uwetrottmann.shopr.algorithm.home.model.context;
 /**
  * < 20
  * 20 <= age < 30

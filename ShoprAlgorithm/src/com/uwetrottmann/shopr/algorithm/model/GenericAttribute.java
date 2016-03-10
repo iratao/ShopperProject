@@ -13,7 +13,7 @@ public abstract class GenericAttribute implements Attribute {
 
     private AttributeValue currentValue;
 
-    double[] mValueWeights;
+    public double[] mValueWeights;
 
     public AttributeValue currentValue() {
         return currentValue;

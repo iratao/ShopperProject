@@ -1,4 +1,4 @@
-package com.uwetrottmann.shopr.algorithm.home;
+package com.uwetrottmann.shopr.algorithm.home.model.context;
 /**
  * size < 6
  * 6 <= size < 10

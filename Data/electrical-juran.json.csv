@@ -1,0 +1,101 @@
+id,name,price,brand,color,contenttype,style,image_url
+2dd34731-a223-47ff-9444-fcf84ffc3e2b,A-100,0.0,金榜,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/2dd34731-a223-47ff-9444-fcf84ffc3e2b/iso.jpg
+32e4a1b8-d293-460d-b306-0525c1730aec,Silver 6,15900,金榜,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/32e4a1b8-d293-460d-b306-0525c1730aec/iso.jpg
+3d025512-6726-4908-802a-d494861a0b5c,MG2101HR,37433,霸王钟表,Brown,accessory/clock - floor-based,简约现代,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/3d025512-6726-4908-802a-d494861a0b5c/iso.jpg
+407f54e6-4fce-4742-8786-b72596a3d7f0,洗衣机,0.0,generic,,appliance/washer,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/407f54e6-4fce-4742-8786-b72596a3d7f0/iso.jpg
+60a3da42-f606-4156-b33a-17f8dd61bab1,LED照明+换气,859,TCL,,lighting/single spotlight - ceiling-attached,韩式,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/60a3da42-f606-4156-b33a-17f8dd61bab1/iso.jpg
+648bc645-ff31-455a-8ae9-cc3a7034b79a,冰箱DS1-5-5-02,0.0,sub-zero,,appliance/refrigerator,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/648bc645-ff31-455a-8ae9-cc3a7034b79a/iso.jpg
+69af8ca9-1b7a-4113-9e36-c3cdd4acbb67,真空吸尘器521T Mangr,0.0,Miele,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/69af8ca9-1b7a-4113-9e36-c3cdd4acbb67/iso.jpg
+698e18c0-4a7b-4564-951d-f72f47df1f2d,冰箱348,0.0,generic,,appliance/refrigerator,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/698e18c0-4a7b-4564-951d-f72f47df1f2d/iso.jpg
+6e7ebc68-443c-4727-95f6-cc8b1175a7d4,通风扇YNT30-3,320,英耐特丝,,appliance/appliance - ceiling-attached,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/6e7ebc68-443c-4727-95f6-cc8b1175a7d4/iso.jpg
+7082f4c5-fe49-4ecd-bc20-9990299d2eec,电视191,0.0,generic,,electronics/TV - wall-attached,新古典,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/7082f4c5-fe49-4ecd-bc20-9990299d2eec/iso.jpg
+76ac998b-1859-4cf4-9521-1f4e89747227,天上明珠_五合一风暖,0.0,天上明珠,,accessory/accessory - ceiling-attached,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/76ac998b-1859-4cf4-9521-1f4e89747227/iso.jpg
+8e1eb6da-6238-4158-a79d-631a8b753052,五合一超导,0.0,天上明珠,,accessory/accessory - ceiling-attached,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/8e1eb6da-6238-4158-a79d-631a8b753052/iso.jpg
+91ef1c52-b57b-44a7-897b-dde1dbd13de8,ERGO620,17600,金榜,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/91ef1c52-b57b-44a7-897b-dde1dbd13de8/iso.jpg
+9babc707-b540-4430-9bf1-97803a2519b7,独立式咖啡机,0.0,Miele,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/9babc707-b540-4430-9bf1-97803a2519b7/iso.jpg
+9b1ca78c-0244-403a-b358-51cd7037dcdd,ARC,31800,金榜,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/9b1ca78c-0244-403a-b358-51cd7037dcdd/iso.jpg
+a3ed275d-f384-49b3-83db-b12bda6c90dc,光波银浴霸,0.0,英耐特丝,,appliance/appliance - ceiling-attached,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/a3ed275d-f384-49b3-83db-b12bda6c90dc/iso.jpg
+a7ff0bb1-db31-40a8-910f-fb19f2d6f8c5,天上明珠_LED,0.0,天上明珠,,lighting/single spotlight - ceiling-attached,简约现代,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/a7ff0bb1-db31-40a8-910f-fb19f2d6f8c5/iso.jpg
+b10a449d-d6e6-4430-bd68-4bc498890f3b,空调335,0.0,generic,,electronics/air-conditioner - wall-attached,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/b10a449d-d6e6-4430-bd68-4bc498890f3b/iso.jpg
+bb77ebfb-fb99-4f61-8b27-a62b811fb18c,五合一风暖,0.0,天上明珠,,accessory/accessory - ceiling-attached,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bb77ebfb-fb99-4f61-8b27-a62b811fb18c/iso.jpg
+cb8a4be4-8f98-480a-b866-8551550b8b81,室内加热器丰高24号,690,英耐特丝,,appliance/appliance - ceiling-attached,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/cb8a4be4-8f98-480a-b866-8551550b8b81/iso.jpg
+cd4153f4-10b2-42d9-b35e-65e5617485e4,MB2,201110,金榜,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/cd4153f4-10b2-42d9-b35e-65e5617485e4/iso.jpg
+d608f79c-fb31-4520-ab5b-7fc3c21084ea,冰箱,0.0,sub-zero,,appliance/refrigerator,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/d608f79c-fb31-4520-ab5b-7fc3c21084ea/iso.jpg
+d7a0d849-9221-4039-8051-981c25250075,测试_茶具4,0.0,居然之家,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/d7a0d849-9221-4039-8051-981c25250075/iso.jpg
+db614efa-e078-43b5-8365-1950bfb96408,BX Centre,2380,金榜,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/db614efa-e078-43b5-8365-1950bfb96408/iso.jpg
+e71e9c45-17c7-4a56-8906-07dfe4b61b18,TCL007(300x300mm),720,TCL,,accessory/accessory - ceiling-attached,韩式,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/e71e9c45-17c7-4a56-8906-07dfe4b61b18/iso.jpg
+ed44a785-5a2e-456f-b8af-4abfdac21163,Curve,56800,金榜,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/ed44a785-5a2e-456f-b8af-4abfdac21163/iso.jpg
+ef706dd1-dc65-4bd6-bc23-e21ef5b9ac89,五合一风暖SK600S-2EHFN,1680,阳霸,,build element/kitchen ceiling,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/ef706dd1-dc65-4bd6-bc23-e21ef5b9ac89/iso.jpg
+f299a8a6-7148-4e5c-bf46-2989fa3a6d20,网络LED（中国风300）,618,TCL,,accessory/accessory - ceiling-attached,韩式,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/f299a8a6-7148-4e5c-bf46-2989fa3a6d20/iso.jpg
+f6caaff9-7b01-4ddd-b10c-83f82c11b5c2,CC311高级版,80000,金榜,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/f6caaff9-7b01-4ddd-b10c-83f82c11b5c2/iso.jpg
+f78de944-5dc3-4d94-ac81-9de4c82e5f0d,BX6,10530,金榜,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/f78de944-5dc3-4d94-ac81-9de4c82e5f0d/iso.jpg
+fc7a89cc-fb63-4538-96bc-ac6120345c37,银爵 回型单换气,468,TCL,,accessory/accessory - ceiling-attached,韩式,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/fc7a89cc-fb63-4538-96bc-ac6120345c37/iso.jpg
+fdba04e6-2b9a-463c-a61f-f80e84c6c6f2,超级碳纤维,1288,TCL,,accessory/accessory - ceiling-attached,韩式,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/fdba04e6-2b9a-463c-a61f-f80e84c6c6f2/iso.jpg
+81adcbe7-63d2-45df-8121-7c03a28c448d,室内加热器YNT60-41,2200,英耐特丝,,appliance/appliance - ceiling-attached,其他,http://ezhome-uat-pim-assets.s3.cn-north-1.amazonaws.com.cn/i/81adcbe7-63d2-45df-8121-7c03a28c448d/iso.jpg
+1e35395a-2128-4b97-a5d3-0729b9205be5,LED照明灯YNT26-02,600,英耐特丝,,lighting/single spotlight - ceiling-attached,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/1e35395a-2128-4b97-a5d3-0729b9205be5/iso.jpg
+878a0e51-4513-43d2-b3c3-6a9848652900,LED照明灯YNT60-01,750,英耐特丝,,lighting/single spotlight - ceiling-attached,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/878a0e51-4513-43d2-b3c3-6a9848652900/iso.jpg
+0824ad58-fa09-42ad-af2e-600cc13bd063,twenty•24,49720,金榜,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/0824ad58-fa09-42ad-af2e-600cc13bd063/iso.jpg
+1d51a226-8d9e-49c9-84f0-041952ac920b,风暖SK3WS-1F,480,阳霸,,accessory/accessory - ceiling-attached,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/1d51a226-8d9e-49c9-84f0-041952ac920b/iso.jpg
+1e102af2-8bc7-4ce3-b08c-2bfbb6f0cb50,2010 S2,11420,金榜,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/1e102af2-8bc7-4ce3-b08c-2bfbb6f0cb50/iso.jpg
+4c02725f-d2e2-4abc-9521-8c66f9ee0626,空调330,0.0,generic,,electronics/air-conditioner - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/4c02725f-d2e2-4abc-9521-8c66f9ee0626/iso.jpg
+55def888-84a6-4d44-a051-6e525497cfee,CHRONO 509.2,29800,金榜,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/55def888-84a6-4d44-a051-6e525497cfee/iso.jpg
+6e95a9cf-e14f-446f-8314-70e5d49dc8d7,音箱FL-30,32300,CAV,,appliance/appliance - on top of others,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/6e95a9cf-e14f-446f-8314-70e5d49dc8d7/iso.jpg
+7af06f0e-0bfc-4569-b23e-49ebbf48b3c3,热水器-017,0.0,海尔,,appliance/water heater - electrical,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/7af06f0e-0bfc-4569-b23e-49ebbf48b3c3/iso.jpg
+8e2bdc65-a415-4387-bdeb-cbb82f95a97f,主音响MD-2S,19800,CAV,,appliance/appliance - on top of others,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/8e2bdc65-a415-4387-bdeb-cbb82f95a97f/iso.jpg
+96b480c7-a648-4e4a-8a88-481fff8819c8,滚筒洗衣机,0.0,generic,,appliance/washer,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/96b480c7-a648-4e4a-8a88-481fff8819c8/iso.jpg
+bb95e69c-e642-49ff-8372-c60e1f9a015b,冰箱,0.0,sub-zero,,appliance/refrigerator,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bb95e69c-e642-49ff-8372-c60e1f9a015b/iso.jpg
+be74141f-d385-483d-ba50-232016a822e1,4WH780WD06,0.0,霸王钟表,,accessory/clock - wall-attached,简约现代,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/be74141f-d385-483d-ba50-232016a822e1/iso.jpg
+c1d82f25-cba6-4231-9209-a67fb5e32455,空调K5（升级）平板,1698,TCL,,accessory/accessory - ceiling-attached,韩式,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/c1d82f25-cba6-4231-9209-a67fb5e32455/iso.jpg
+de401d80-9ad6-4683-b42d-9e40bd918e45,热水器-029,0.0,海尔,,appliance/water heater - electrical,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/de401d80-9ad6-4683-b42d-9e40bd918e45/iso.jpg
+e0cf07b2-4b91-481d-8731-285e5166ea12,主音箱TT6000,3980,CAV,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/e0cf07b2-4b91-481d-8731-285e5166ea12/iso.jpg
+a2f5a5e4-7316-4153-bda6-88ce58189ba5,LED照明灯YNT26-01,0.0,英耐特丝,,lighting/single spotlight - ceiling-attached,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/a2f5a5e4-7316-4153-bda6-88ce58189ba5/iso.jpg
+c710a4c0-bb2e-42cc-8087-b8aa71a2c7b8,空调王K1,0.0,TCL,,build element/kitchen ceiling,韩式,http://ezhome-uat-pim-assets.s3.cn-north-1.amazonaws.com.cn/i/c710a4c0-bb2e-42cc-8087-b8aa71a2c7b8/iso.jpg
+03bbb444-9280-4384-8b3c-dc4ad41e674b,通风扇YNT30-20,380,英耐特丝,,appliance/appliance - ceiling-attached,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/03bbb444-9280-4384-8b3c-dc4ad41e674b/iso.jpg
+240ed233-7105-4966-8fc1-668c19530319,功放A8n,29500,CAV,,appliance/appliance - on top of others,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/240ed233-7105-4966-8fc1-668c19530319/iso.jpg
+2c006b8f-b702-4ab2-a681-9066287f42c4,KATAR795,0.0,金榜,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/2c006b8f-b702-4ab2-a681-9066287f42c4/iso.jpg
+3c54c985-daeb-4095-8df6-092553b2a0c1,五合一风暖土豪金A60DNFN-7,1980,阳霸,,accessory/accessory - ceiling-attached,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/3c54c985-daeb-4095-8df6-092553b2a0c1/iso.jpg
+4d0f1e95-a90c-4a43-93e5-4fc65855a169,网络LED（中国风600）,838,TCL,,accessory/accessory - ceiling-attached,韩式,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/4d0f1e95-a90c-4a43-93e5-4fc65855a169/iso.jpg
+53431ac1-9f37-4177-b98b-38e995cdf16c,低音炮DW-8,0.0,CAV,,appliance/appliance - on top of others,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/53431ac1-9f37-4177-b98b-38e995cdf16c/iso.jpg
+a2a02f2b-01c7-422d-bfbd-9303af526a94,风暖SK300S-1FN,800,阳霸,,accessory/accessory - ceiling-attached,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/a2a02f2b-01c7-422d-bfbd-9303af526a94/iso.jpg
+a448e007-4f2c-4228-ad83-c1d64435d3c9,空调K5（升级）平板,1698,Urban Archaeology,,500 - attach to ceiling,简约现代,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/a448e007-4f2c-4228-ad83-c1d64435d3c9/iso.jpg
+c4550301-8413-470b-96a9-3749fa9d23d0,真空吸尘器4812 Silver,54800,Miele,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/c4550301-8413-470b-96a9-3749fa9d23d0/iso.jpg
+c63d7afe-9a1e-4c49-9463-cce2075b5b34,Silver Center,6000,金榜,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/c63d7afe-9a1e-4c49-9463-cce2075b5b34/iso.jpg
+c8236759-0c1f-465a-a72f-b12bd8cd6045,热水器-002,0.0,海尔,,appliance/water heater - electrical,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/c8236759-0c1f-465a-a72f-b12bd8cd6045/iso.jpg
+cd6fe264-e075-43bb-9b97-eb05d32d3ee7,三合一LED,0.0,天上明珠,,accessory/accessory - ceiling-attached,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/cd6fe264-e075-43bb-9b97-eb05d32d3ee7/iso.jpg
+d7ad95d7-a70c-4f95-8506-35a7162cde27,空调329,0.0,generic,,electronics/air-conditioner - wall-attached,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/d7ad95d7-a70c-4f95-8506-35a7162cde27/iso.jpg
+e90089af-65c7-4dc1-9b01-834420fe1807,空调331,0.0,generic,,electronics/air-conditioner - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/e90089af-65c7-4dc1-9b01-834420fe1807/iso.jpg
+e90c9dac-02b8-4c8f-ae54-eb516b6e1b5d,空调333,0.0,generic,,electronics/air-conditioner - wall-attached,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/e90c9dac-02b8-4c8f-ae54-eb516b6e1b5d/iso.jpg
+eabf27ac-c6bf-4969-a73f-cd80d711aaa6,冰箱a,0.0,sub-zero,Brown,appliance/refrigerator,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/eabf27ac-c6bf-4969-a73f-cd80d711aaa6/iso.jpg
+ef094a85-c2c6-451a-a144-7ee5fef69d93,功放A8m,12800,CAV,,appliance/appliance - on top of others,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/ef094a85-c2c6-451a-a144-7ee5fef69d93/iso.jpg
+ffa2fdc2-102c-4225-9323-44a6aa4b6e09,BX2,50,金榜,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/ffa2fdc2-102c-4225-9323-44a6aa4b6e09/iso.jpg
+32a7bfc8-ee7e-4fd5-9698-ca55bcb6f548,雅致超级换气扇,1080,TCL,,accessory/accessory - ceiling-attached,韩式,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/32a7bfc8-ee7e-4fd5-9698-ca55bcb6f548/iso.jpg
+55712f09-1802-4653-b91b-fd292805692e,LED照明灯YNT45-01,680,英耐特丝,,lighting/single spotlight - ceiling-attached,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/55712f09-1802-4653-b91b-fd292805692e/iso.jpg
+00cca3b4-e0dc-40ea-a2d1-77c45e5287fe,BX FX,3830,金榜,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/00cca3b4-e0dc-40ea-a2d1-77c45e5287fe/iso.jpg
+03b5972a-0507-478e-9448-4028c37c774b,冰箱347,0.0,generic,,appliance/refrigerator,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/03b5972a-0507-478e-9448-4028c37c774b/iso.jpg
+0a90ff40-64c0-4291-9ead-bde1f7951251,冰箱346,0.0,generic,,appliance/refrigerator,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/0a90ff40-64c0-4291-9ead-bde1f7951251/iso.jpg
+0ed4953b-36c4-47cc-9a39-cd295a7dd24e,独立式蒸箱,19900,Miele,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/0ed4953b-36c4-47cc-9a39-cd295a7dd24e/iso.jpg
+3b2d2f48-20bb-4b19-ac7c-8c9c5385f403,世家系列 单换气（超级换气）,720,TCL,,accessory/accessory - ceiling-attached,韩式,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/3b2d2f48-20bb-4b19-ac7c-8c9c5385f403/iso.jpg
+3d43d6af-af12-4aef-99fb-d1a32e4c8097,EB1,121800,金榜,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/3d43d6af-af12-4aef-99fb-d1a32e4c8097/iso.jpg
+4313d257-b913-418e-bc50-243fbfad7332,冰箱DS1-5-02,0.0,sub-zero,,appliance/refrigerator,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/4313d257-b913-418e-bc50-243fbfad7332/iso.jpg
+448fb054-3d85-4c84-815f-1cdb30763eb7,室内加热器YNT45-41,2200,英耐特丝,,accessory/accessory - ceiling-attached,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/448fb054-3d85-4c84-815f-1cdb30763eb7/iso.jpg
+46cb6220-f3ea-4209-bcee-4880a0159ee2,智能空调王K3,3358,TCL,,accessory/accessory - ceiling-attached,韩式,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/46cb6220-f3ea-4209-bcee-4880a0159ee2/iso.jpg
+6f76234d-a43e-42f3-b555-c48a0edcaf8c,功放T6,9900,CAV,,appliance/appliance - on top of others,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/6f76234d-a43e-42f3-b555-c48a0edcaf8c/iso.jpg
+74aa6983-e1b3-454b-8c73-b17660de3c30,酒柜DS1-5-5-02,0.0,sub-zero,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/74aa6983-e1b3-454b-8c73-b17660de3c30/iso.jpg
+7bef173f-4916-404f-bd82-1fa2c8f0250b,热水器-038,0.0,海尔,,appliance/water heater - gas,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/7bef173f-4916-404f-bd82-1fa2c8f0250b/iso.jpg
+7ecbec8e-87f9-46af-8d0a-65ba412ed22b,TV 42 inch,0.0,Committed Photography,,electronics/TV - wall-attached,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/7ecbec8e-87f9-46af-8d0a-65ba412ed22b/iso.jpg
+83ff5e74-9403-4266-baaf-6222f6b70acf,class10,31200,金榜,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/83ff5e74-9403-4266-baaf-6222f6b70acf/iso.jpg
+8baa14d1-1a06-4410-9a1e-4e1892465cf8,2010 S2,10850,金榜,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/8baa14d1-1a06-4410-9a1e-4e1892465cf8/iso.jpg
+8d27c060-2235-425e-91c8-7ad84ed53c2a,冰箱DS1-5-5-02,0.0,sub-zero,,appliance/refrigerator,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/8d27c060-2235-425e-91c8-7ad84ed53c2a/iso.jpg
+99a0fb86-7cb9-49f3-89c9-3e0560d7455a,主音箱fi_HQ,15800,CAV,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/99a0fb86-7cb9-49f3-89c9-3e0560d7455a/iso.jpg
+9d08ef78-1e87-4090-b180-d1adc5e08d8c,BXW-10,6710,金榜,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/9d08ef78-1e87-4090-b180-d1adc5e08d8c/iso.jpg
+b1801f8d-f0e1-4094-bd90-053d2214873a,黄金管131,859,TCL,,accessory/accessory - ceiling-attached,韩式,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/b1801f8d-f0e1-4094-bd90-053d2214873a/iso.jpg
+b4694df9-429e-494c-bf17-efd3e27ba4dd,CHRONO 501.2Center,8800,金榜,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/b4694df9-429e-494c-bf17-efd3e27ba4dd/iso.jpg
+b5e3155f-4900-46be-bd3b-c5be76ad6687,tongpei329,0.0,Generic,,appliance/appliance - wall-attached,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/b5e3155f-4900-46be-bd3b-c5be76ad6687/iso.jpg
+bfdca9ec-d299-4e06-8f9f-73190ed524bf,Square One,14000,金榜,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/bfdca9ec-d299-4e06-8f9f-73190ed524bf/iso.jpg
+c961245b-ac6b-422b-90c3-d7db423ecc72,热水器-019,0.0,海尔,,appliance/water heater - electrical,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/c961245b-ac6b-422b-90c3-d7db423ecc72/iso.jpg
+ca515450-69cb-49f3-8a5e-c6eb7f993152,热水器-020,0.0,海尔,,appliance/water heater - electrical,简约现代,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/ca515450-69cb-49f3-8a5e-c6eb7f993152/iso.jpg
+d740be89-1455-4155-b422-4de50896442c,出水芙蓉,0.0,TCL,Blue,accessory/accessory - ceiling-attached,韩式,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/d740be89-1455-4155-b422-4de50896442c/iso.jpg
+dbe653f2-4986-4c14-b76a-dd6ed295eca1,6231ARMKS,2680,霸王钟表,,accessory/clock - wall-attached,简约现代,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/dbe653f2-4986-4c14-b76a-dd6ed295eca1/iso.jpg
+dfe4116b-a26d-450e-8d7d-fae15df884a0,中置环绕fi-c-s,6000,CAV,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/dfe4116b-a26d-450e-8d7d-fae15df884a0/iso.jpg
+e92e6d25-13c8-4a9a-acd8-51c656429983,R-360,7930,金榜,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/e92e6d25-13c8-4a9a-acd8-51c656429983/iso.jpg
+f710e3b1-4384-42fa-98b8-5daca6110ccb,MR2,2610,金榜,,appliance/appliance - floor-based,其他,http://juran-prod-assets.s3.cn-north-1.amazonaws.com.cn/i/f710e3b1-4384-42fa-98b8-5daca6110ccb/iso.jpg
