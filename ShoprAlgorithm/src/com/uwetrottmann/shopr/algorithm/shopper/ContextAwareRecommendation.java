@@ -1,19 +1,15 @@
 package com.uwetrottmann.shopr.algorithm.shopper;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
 import com.uwetrottmann.shopr.algorithm.AdaptiveSelection;
 import com.uwetrottmann.shopr.algorithm.BoundedGreedySelection;
-import com.uwetrottmann.shopr.algorithm.Critique;
-import com.uwetrottmann.shopr.algorithm.Feedback;
-import com.uwetrottmann.shopr.algorithm.model.Attributes.Attribute;
+import com.uwetrottmann.shopr.algorithm.home.model.context.RoomType;
 import com.uwetrottmann.shopr.algorithm.model.ClothingType;
 import com.uwetrottmann.shopr.algorithm.model.Item;
-import com.uwetrottmann.shopr.algorithm.shopper.model.Budget;
 import com.uwetrottmann.shopr.algorithm.shopper.model.ContextCase;
 import com.uwetrottmann.shopr.algorithm.shopper.model.ContextFactors;
 import com.uwetrottmann.shopr.algorithm.shopper.model.ContextFactors.ContextFactor;
@@ -169,7 +165,7 @@ public class ContextAwareRecommendation {
 		for(ContextCase contextCase: this.mContextCaseBase){
 			contextCase.setContextSimilarity(getContextSimilarity(
 					contextCase.getContextFactors(), 
-					(ClothingType) contextCase.getItem().attributes().getAttributeById(ClothingType.ID)));
+					new ClothingType()));
 		}
 		
 		/**
@@ -322,15 +318,25 @@ public class ContextAwareRecommendation {
 	}
 	
 	public static void main(String[] args){
-		Budget budget1 = new Budget();
-		budget1.setCurrentValue(Budget.Value.BUDGET_BUYER);
-		ContextFactors context1 = new ContextFactors();
-		context1.putContextFactor(budget1);
+//		Budget budget1 = new Budget();
+//		budget1.setCurrentValue(Budget.Value.BUDGET_BUYER);
+//		ContextFactors context1 = new ContextFactors();
+//		context1.putContextFactor(budget1);
+//		
+//		Budget budget2 = new Budget();
+//		budget2.setCurrentValue(Budget.Value.HIGH_SPENDER);
+//		ContextFactors context2 = new ContextFactors();
+//		context2.putContextFactor(budget2);
 		
-		Budget budget2 = new Budget();
-		budget2.setCurrentValue(Budget.Value.HIGH_SPENDER);
+		RoomType type1 = new RoomType();
+		type1.setCurrentValue(RoomType.Value.Bedroom);
+		ContextFactors context1 = new ContextFactors();
+		context1.putContextFactor(type1);
+		
+		RoomType type2 = new RoomType();
+		type2.setCurrentValue(RoomType.Value.DiningRoom);
 		ContextFactors context2 = new ContextFactors();
-		context2.putContextFactor(budget2);
+		context2.putContextFactor(type1);
 		
 		ContextCase contextCase = new ContextCase();
 		contextCase.setContextFactors(context2);

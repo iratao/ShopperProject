@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 import com.uwetrottmann.shopr.algorithm.model.GenericAttribute;
 import com.uwetrottmann.shopr.algorithm.model.Attributes.AttributeValue;
+import com.uwetrottmann.shopr.algorithm.model.ClothingType.Value;
 
 public class Brand extends GenericAttribute{
 	public static final String ID = "brand";
@@ -165,6 +166,18 @@ public class Brand extends GenericAttribute{
         Arrays.fill(mValueWeights, 0.0);
         mValueWeights[value.ordinal()] = 1.0;
         currentValue(value);
+    }
+    
+    public Brand(String str) {
+    	for (Value value : Value.values()) {
+    	    if(value.toString().equals(str)){
+    	    	mValueWeights = new double[Value.values().length];
+    	        Arrays.fill(mValueWeights, 0.0);
+    	        mValueWeights[value.ordinal()] = 1.0;
+    	        currentValue(value);
+    	        break;
+    	    } 
+    	}
     }
 
     @Override

@@ -1,4 +1,12 @@
 package com.uwetrottmann.shopr.algorithm.home.model.context;
+
+import com.uwetrottmann.shopr.algorithm.home.model.attributes.ContentType;
+import com.uwetrottmann.shopr.algorithm.model.ClothingType;
+import com.uwetrottmann.shopr.algorithm.shopper.model.Companion;
+import com.uwetrottmann.shopr.algorithm.shopper.model.ContextFactors.ContextFactor;
+import com.uwetrottmann.shopr.algorithm.shopper.model.ContextFactors.ContextValue;
+import com.uwetrottmann.shopr.algorithm.shopper.model.GenericContextFactor;
+
 /**
  * < 20
  * 20 <= age < 30
@@ -50,58 +58,27 @@ public class Age extends GenericContextFactor{
 	}
 	
 	@Override
-	public double getWeight(ClothingType type) {
-		switch(ClothingType.Value.values()[type.currentValue().index()]){
-		case TOPS:
-			return 0.7589;
-		case DRESSES:
-			return 0.9118;
-		case UNDERWEAR:
-			return 0.7833;
-		case CARDIGANS:
-			return 0.8199;
-		case TROUSERS:
-			return 0.8224;
-		case COATS:
-			return 0.6815;
-		case BLOUSES:
-			return 0.7491;
-		case JACKETS:
-			return 0.8973;
-		case SKIRTS:
-			return 1;
-		case JEANS:
-			return 0.9075;
-		case SOCKS:
-			return 0.7881;
-		case SWIMWEAR:
-			return 0.7591;
-		case SUITS:
-			return 1;
-		case SHIRTS:
-			return 0.9009;
-		default:
-			return 1;
+	public String getFactorDescription() {
+		switch(Age.Value.values()[getCurrentValue().index()]){
+			case SUB_20:
+				return "they are less than 20 years old";
+			case BETWEEN_20_30:
+				return "they are from 20 to 30 years old";
+			case BETWEEN_30_40:
+				return "they are from 30 to 40 years old";
+			case BETWEEN_40_50:
+				return "they are from 40 to 50 years old";
+			case ABOVE_50:
+				return "they are above 50 years old";
+			default:
+				return "";
 		}
 	}
-	
+
 	@Override
-	public String getFactorDescription() {
-		switch(Companion.Value.values()[getCurrentValue().index()]){
-		case ALONE:
-			return "they are alone";
-		case CHILDREN:
-			return "they are with children";
-		case FAMILY:
-			return "they are with family";
-		case FRIENDS:
-			return "they are with friends";
-		case GIRL_BOY_FRIEND:
-			return "they are with girl/boy-friend";
-		default:
-			return "";
-		
-		}
+	public double getWeight(ClothingType type) {
+		// TODO Auto-generated method stub
+		return 1;
 	}
 
 }

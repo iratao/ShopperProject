@@ -2,6 +2,7 @@ package com.uwetrottmann.shopr.algorithm.home.model.attributes;
 
 import java.util.Arrays;
 
+import com.uwetrottmann.shopr.algorithm.home.model.attributes.Brand.Value;
 import com.uwetrottmann.shopr.algorithm.model.GenericAttribute;
 import com.uwetrottmann.shopr.algorithm.model.Attributes.AttributeValue;
 
@@ -80,6 +81,18 @@ public class ContentType extends GenericAttribute{
         Arrays.fill(mValueWeights, 0.0);
         mValueWeights[value.ordinal()] = 1.0;
         currentValue(value);
+    }
+    
+    public ContentType(String str) {
+    	for (Value value : Value.values()) {
+    	    if(value.toString().equals(str)){
+    	    	mValueWeights = new double[Value.values().length];
+    	        Arrays.fill(mValueWeights, 0.0);
+    	        mValueWeights[value.ordinal()] = 1.0;
+    	        currentValue(value);
+    	        break;
+    	    } 
+    	}
     }
 
     @Override
