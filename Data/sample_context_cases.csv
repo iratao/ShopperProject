@@ -1,0 +1,10 @@
+is_context,item_id,context_id
+FALSE,1,2
+FALSE,2,4
+FALSE,3,3
+FALSE,1,3
+FALSE,2,0
+FALSE,3,4
+FALSE,1,0
+FALSE,2,4
+FALSE,3,3

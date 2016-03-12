@@ -6,7 +6,7 @@ import com.uwetrottmann.shopr.algorithm.home.model.attributes.ContentType.Value;
 import com.uwetrottmann.shopr.algorithm.model.GenericAttribute;
 import com.uwetrottmann.shopr.algorithm.model.Attributes.AttributeValue;
 
-public class Style extends GenericAttribute{
+public class ItemStyle extends GenericAttribute{
 	public static final String ID = "style";
 
     public enum Value implements AttributeValue {
@@ -37,29 +37,34 @@ public class Style extends GenericAttribute{
         }
     }
 
-    public Style() {
+    public ItemStyle() {
         int numValues = Value.values().length;
         mValueWeights = new double[numValues];
         Arrays.fill(mValueWeights, 1.0 / numValues);
     }
 
-    public Style(Value value) {
+    public ItemStyle(Value value) {
         mValueWeights = new double[Value.values().length];
         Arrays.fill(mValueWeights, 0.0);
         mValueWeights[value.ordinal()] = 1.0;
         currentValue(value);
     }
     
-    public Style(String str) {
+    public ItemStyle(String str) {
     	for (Value value : Value.values()) {
-    	    if(value.toString().equals(str)){
+    	    if(value.descriptor().equals(str)){
     	    	mValueWeights = new double[Value.values().length];
     	        Arrays.fill(mValueWeights, 0.0);
     	        mValueWeights[value.ordinal()] = 1.0;
     	        currentValue(value);
-    	        break;
+    	        return;
     	    } 
     	}
+    	mValueWeights = new double[Value.values().length];
+        Arrays.fill(mValueWeights, 0.0);
+        mValueWeights[Value.OTHER.ordinal()] = 1.0;
+        currentValue(Value.OTHER);
+    	System.out.println("***********************Value not found!!!!!!!!!!!!!*************");
     }
 
     @Override

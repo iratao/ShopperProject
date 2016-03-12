@@ -283,7 +283,7 @@ public class AdaptiveSelection {
         	 * If first run and is using context, then use context aware recommendation to
         	 * get the initial recommendations. 
         	 */
-        	if(lastCritique==null && mIsUsingContext){
+        	if(lastCritique==null){
         		/*
         		 *  1. The context case base is set.
         		 *  2. The current context is set.

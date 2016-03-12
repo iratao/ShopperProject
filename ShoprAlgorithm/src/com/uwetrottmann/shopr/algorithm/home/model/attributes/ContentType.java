@@ -51,7 +51,8 @@ public class ContentType extends GenericAttribute{
     	AIR_CONDITIONER_FLOOR("electronics/air-conditioner - floor-based"),
     	ELECTRICAL_WATER_HEATER("appliance/water heater - electrical"),
     	GAS_WATER_HEATER("appliance/water heater - gas"),
-    	APPLIANCE_WALL("appliance/appliance - wall-attached");
+    	APPLIANCE_WALL("appliance/appliance - wall-attached"),
+    	OTHER("other");
 
         private String mDescriptor;
 
@@ -85,14 +86,19 @@ public class ContentType extends GenericAttribute{
     
     public ContentType(String str) {
     	for (Value value : Value.values()) {
-    	    if(value.toString().equals(str)){
+    	    if(value.descriptor().equals(str)){
     	    	mValueWeights = new double[Value.values().length];
     	        Arrays.fill(mValueWeights, 0.0);
     	        mValueWeights[value.ordinal()] = 1.0;
     	        currentValue(value);
-    	        break;
+    	        return;
     	    } 
     	}
+    	mValueWeights = new double[Value.values().length];
+        Arrays.fill(mValueWeights, 0.0);
+        mValueWeights[Value.OTHER.ordinal()] = 1.0;
+        currentValue(Value.OTHER);
+    	System.out.println("***********************Value not found!!!!!!!!!!!!!*************");
     }
 
     @Override
