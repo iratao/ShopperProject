@@ -29,11 +29,14 @@ for item in items:
 	style = ''
 	for attribute in item['attributes']:
 		if attribute['name'] == 'Colors':
-			color = attribute['values'][0]['value']
+			if attribute['values'] and len(attribute['values']) > 0:
+				color = attribute['values'][0]['value']
 		elif attribute['name'] == 'ContentType':
-			contenttype = attribute['values'][0]['value']
+			if attribute['values'] and len(attribute['values']) > 0:
+				contenttype = attribute['values'][0]['value']
 		elif attribute['name'] == 'Styles':
-			style = attribute['values'][0]['value']
+			if attribute['values'] and len(attribute['values']) > 0:
+				style = attribute['values'][0]['value']
 
 		price = 0.0;
 		if len(item['retailers']) > 0 and item['retailers'][0].has_key('price'):

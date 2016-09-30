@@ -19,7 +19,7 @@ import com.uwetrottmann.shopr.algorithm.shopper.model.ContextFactors;
 
 public class AdaptiveSelection {
 
-    private static final int NUM_RECOMMENDATIONS_DEFAULT = 8;
+    private static final int NUM_RECOMMENDATIONS_DEFAULT = 16;
     private static final int BOUND_DEFAULT = 5;
     private static final int BOUND_DEFAULT_FOR_CONTEXT = 3;
     private static final boolean DUMP_INVENTORY = false;

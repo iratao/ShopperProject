@@ -18,7 +18,9 @@ public class ItemStyle extends GenericAttribute{
     	AMERICAN_COUNTRY("美式乡村"),
     	CHIN_MODERN("现代中式"),
     	NORTH_EURO("北欧"),
-    	KOREAN("韩式");
+    	KOREAN("韩式"),
+    	SOUTH_EAST_ASIA("东南亚"),
+    	HYBRID("混搭");
 
         private String mDescriptor;
 
